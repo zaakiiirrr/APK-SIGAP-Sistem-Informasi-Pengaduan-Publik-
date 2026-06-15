@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield/Emblem Contour for Government/Civic Identity -->
+    <path
+        android:pathData="M54,18 C70,18 84,21 84,21 C84,52 74,74 54,88 C34,74 24,52 24,21 C24,21 38,18 54,18 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="#15FFFFFF" />
+        
+    <!-- Megaphone / Loudspeaker pointing diagonally upwards-right -->
+    <group
+        android:pivotX="45"
+        android:pivotY="52"
+        android:rotation="-8"
+        android:translateX="3"
+        android:translateY="6">
+        <!-- Megaphone Body and Cone -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M31,45 L41,38 C42,37.3 43.1,37 44.2,37 L49,37 C51.2,37 53,38.8 53,41 L53,61 C53,63.2 51.2,65 49,65 L44.2,65 C43.1,65 42,64.7 41,64 L31,57 C29.1,55.7 28,53.5 28,51.2 L28,50.8 C28,48.5 29.1,46.3 31,45 Z" />
+        
+        <!-- Megaphone Flared Mouth Outlines -->
+        <path
+            android:fillColor="#E3F2FD"
+            android:pathData="M53,41 C54.5,41 56,45.5 56,51 C56,56.5 54.5,61 53,61 Z" />
+        
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M51,37 L51,65 L49,65 L49,37 Z" />
+            
+        <!-- Handle -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M38,62 L35,74 C34.5,75.5 35.5,77 37,77 L41,77 C42.5,77 43.5,75.5 43,74 L40,62 Z" />
+    </group>
+
+    <!-- Green Chat Bubble with White Checkmark -->
+    <group
+        android:translateX="51"
+        android:translateY="20">
+        <!-- Green circle bubble with dialogue tail -->
+        <path
+            android:fillColor="#FF2E7D32"
+            android:pathData="M16,16 C16,24.8 24.8,32 32,32 C33.4,32 34.8,31.7 36.1,31.2 L43,33 L41.2,26.1 C44.2,23.5 46,19.9 46,16 C46,7.2 37.2,0 28,0 C18.8,0 16,7.2 16,16 Z" />
+        
+        <!-- White outer ring or inner circle to accent the bubble -->
+        <path
+            android:fillColor="#FF388E3C"
+            android:pathData="M20,16 C20,22.6 26.6,28 32,28 C33,28 34,27.8 35,27.4 L39,28.5 L37.9,24.5 C40,22.5 41.5,19.5 41.5,16 C41.5,9.4 34.9,4 28,4 C21.1,4 20,9.4 20,16 Z" />
+
+        <!-- Crisp white Checkmark -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M27,15.5 L24,12.5 L21.5,15 L27,20.5 L39.5,8 L37,5.5 Z" />
+    </group>
+
+    <!-- Indonesian National Star (Gold) centered at the bottom tip of the shield to maintain official prestige -->
+    <group
+        android:translateX="46"
+        android:translateY="70"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+        <path
+            android:fillColor="#FFFFD54F"
+            android:pathData="M10,15.27 L16.18,19 L14.54,12.03 L20,7.24 L12.81,6.63 L10,0 L7.19,6.63 L0,7.24 L5.46,12.03 L3.82,19 Z" />
+    </group>
+
+</vector>

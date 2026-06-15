@@ -1,0 +1,8 @@
+{
+  "name": "Remix: SIGAP",
+  "description": "AI-powered public complaint system for Indonesian citizens and officials featuring automated summaries, urgency detection, and executive management dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
